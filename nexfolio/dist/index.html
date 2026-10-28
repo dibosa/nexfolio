@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090e10">
+  <meta name="description" content="A portfolio of digital experiences, intelligent interfaces, and thoughtful development.">
+  <meta property="og:title" content="Nexfolio — Developer portfolio">
+  <meta property="og:description" content="Thoughtful design. Intelligent experiences. Explore selected work.">
+  <meta property="og:type" content="website">
+  <title>Nexfolio — Developer portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="header wrap">
+  <a class="brand" href="#" aria-label="Nexfolio home"><span class="brandmark">N</span> nexfolio<span class="brand-dot">.</span></a>
+  <nav aria-label="Main navigation"><a href="#work">Selected work</a><a href="#about">About</a><a href="#expertise">Expertise</a></nav>
+  <a class="button small header-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+  <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open navigation">☰</button>
+</header>
+<nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation" hidden><a href="#work">Selected work</a><a href="#about">About</a><a href="#expertise">Expertise</a><a href="#contact">Let’s talk ↗</a></nav>
+<main id="main">
+<section class="hero wrap">
+  <div class="hero-copy">
+    <div class="eyebrow availability"><span class="status-dot"></span> <span id="availability">Open to new possibilities</span></div>
+    <h1>Thoughtful design.<br>Intelligent<br><span class="serif">experiences.</span><span class="spark" aria-hidden="true">✳</span></h1>
+    <p class="intro">I’m <span data-name>Your Name</span>, a <span id="role">developer & creative technologist</span>.<br class="desktop-break"> I turn complex ideas into digital products<br class="desktop-break"> that feel effortlessly simple.</p>
+    <div class="hero-actions"><a class="button primary" href="#work">Explore my work <span aria-hidden="true">↗</span></a><a class="text-link" href="#about">A little about me <span aria-hidden="true">→</span></a></div>
+    <div class="hero-note"><span class="tiny-orbit" aria-hidden="true">✳</span> Where creativity meets code.</div>
+  </div>
+  <div class="hero-art" aria-label="Interactive market dashboard portfolio concept">
+    <div class="orbit-ring ring-one"></div><div class="orbit-ring ring-two"></div><div class="art-cross" aria-hidden="true">+</div>
+    <div class="float-label"><span class="status-dot"></span> A little design. A little intelligence.</div>
+    <div class="terminal">
+      <div class="terminal-top"><span class="mini-logo">↗</span><strong>signal<span> / intelligence</span></strong><span class="terminal-dots">•••</span></div>
+      <div class="terminal-main">
+        <div class="terminal-sidebar" aria-hidden="true"><span class="selected">◫</span><span>⌁</span><span>▦</span><span>◎</span><span class="sidebar-bottom">⚙</span></div>
+        <div class="terminal-content">
+          <div class="market-title"><div><span class="micro-label">MARKET OVERVIEW</span><h3>Clarity in every signal<span class="green-dot"></span></h3></div><span class="demo-badge">DEMO</span></div>
+          <div class="chart-head"><div><span class="micro-label">PORTFOLIO INDEX</span><div class="chart-value" id="chart-value">24,860<span>.42</span></div><span class="chart-gain" id="chart-gain">↗ +8.24% <span>this month</span></span></div><div class="chart-tabs" aria-label="Chart time range"><button data-period="1W" aria-pressed="false">1W</button><button data-period="1M" aria-pressed="true">1M</button><button data-period="1Y" aria-pressed="false">1Y</button></div></div>
+          <div class="chart"><div class="chart-grid"></div><svg viewBox="0 0 500 160" role="img" aria-label="Simulated portfolio performance chart"><defs><linearGradient id="chart-fill" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#b6ee85" stop-opacity=".24"/><stop offset="100%" stop-color="#b6ee85" stop-opacity="0"/></linearGradient></defs><path id="chart-area" fill="url(#chart-fill)"/><path id="chart-line" fill="none" stroke="#b8ef8b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="chart-axis"><span>01</span><span>07</span><span>14</span><span>21</span><span>28</span></div></div>
+          <div class="terminal-bottom"><div><span class="micro-label">ENGINE STATUS</span><p><span class="status-dot"></span> All systems in sync</p></div><div class="wave" aria-hidden="true">▁▃▅▃▇▅▂▅▇▃▁▅</div><span class="micro-label">ILLUSTRATIVE DATA</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="floating-card"><span class="ai-icon">✧</span><div><strong>Built with intention.</strong><span>From first idea to final detail.</span></div><span class="check">✓</span></div>
+    <div class="art-caption"><span>DESIGN + DEVELOPMENT + AI</span><span>01 / ∞</span></div>
+  </div>
+</section>
+<div class="skills-strip"><div class="wrap"><span class="strip-label">THE TOOLS CHANGE.<br>THE CURIOSITY DOESN’T.</span><span>Development <i>↗</i></span><span>Interface design <i>↗</i></span><span>AI & automation <i>↗</i></span><span>Creative thinking <i>↗</i></span></div></div>
+<section id="work" class="section wrap">
+  <div class="section-top"><div><div class="eyebrow"><span class="section-number">01 /</span> SELECTED WORK</div><h2>Ideas made <span class="serif">real.</span></h2></div><p>A collection of possibilities.<br>Thoughtfully imagined, carefully built.</p></div>
+  <div class="work-toolbar"><p>EXPLORATIONS & CONCEPTS</p><div class="filters" role="group" aria-label="Filter projects"><button data-filter="all" aria-pressed="true">All work <span>03</span></button><button data-filter="web" aria-pressed="false">Web</button><button data-filter="ai" aria-pressed="false">AI & data</button></div></div>
+  <div class="project-grid" id="projects"></div>
+</section>
+<section id="about" class="about-section"><div class="wrap about-grid"><div><div class="eyebrow"><span class="section-number">02 /</span> BEHIND THE WORK</div><h2>A curious mind.<br>A builder’s <span class="serif">instinct.</span></h2></div><div><p class="about-lead" id="about-copy"></p><p class="muted">Good work starts with better questions. I like to explore the problem, connect the dots, and bring clarity to the things that matter.</p><div class="signature"><span data-name>Your Name</span><span>CREATING WITH PURPOSE ↗</span></div></div></div></section>
+<section id="expertise" class="section wrap"><div class="section-top"><div><div class="eyebrow"><span class="section-number">03 /</span> WHAT I BRING</div><h2>From possibility<br>to <span class="serif">something useful.</span></h2></div><p>One connected approach.<br>Every detail considered.</p></div><div class="expertise-grid"><article><span class="expertise-icon">⌘</span><span class="micro-label">01</span><h3>Digital development</h3><p>Responsive websites and interfaces that turn a strong idea into an experience people can use.</p><div class="expertise-tags">WEBSITES <span>·</span> WEB APPLICATIONS</div></article><article><span class="expertise-icon">◈</span><span class="micro-label">02</span><h3>Thoughtful interfaces</h3><p>Clear layouts, intuitive journeys, and the small interactions that make a product feel considered.</p><div class="expertise-tags">UI DESIGN <span>·</span> PROTOTYPING</div></article><article><span class="expertise-icon">✳</span><span class="micro-label">03</span><h3>Intelligent experiences</h3><p>Exploring how data, automation, and AI can simplify complex tasks and open up new possibilities.</p><div class="expertise-tags">AI INTERFACES <span>·</span> AUTOMATION</div></article></div></section>
+<section id="contact" class="contact-section wrap"><div class="eyebrow"><span class="status-dot"></span> GOOD THINGS START WITH A CONVERSATION</div><h2>Have something<br>in <span class="serif">mind?</span> <span class="contact-star" aria-hidden="true">✳</span></h2><div class="contact-bottom"><p>A new idea, a collaboration, or just a hello.<br>I’d love to hear what you’re thinking.</p><button class="button primary" id="contact-button">Let’s make it happen <span aria-hidden="true">↗</span></button></div><p id="contact-status" role="status" class="contact-status"></p></section>
+</main>
+<footer class="wrap footer"><a class="brand" href="#">nexfolio<span class="brand-dot">.</span></a><p>© <span id="year"></span> <span data-name>Your Name</span>. Crafted with intention.</p><div id="socials"></div><a href="#" class="back-top">Back to top ↑</a></footer>
+<dialog id="project-dialog"><button class="dialog-close" aria-label="Close project">×</button><div class="eyebrow" id="dialog-type"></div><h2 id="dialog-title"></h2><p id="dialog-detail"></p><div class="dialog-tags" id="dialog-tags"></div><a id="dialog-link" class="button primary" hidden>Visit project ↗</a><button class="button dialog-back">Back to selected work ↗</button></dialog>
+<noscript><p class="wrap">Enable JavaScript to view project details and the interactive dashboard.</p></noscript>
+</body>
+</html>
